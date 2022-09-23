@@ -17,7 +17,7 @@
         }
 
         cont.forEach(function(el,index){
-            contStart[index] = el.offsetTop;
+            contStart[index] = el.offsetTop-11;
             
             if(scTop >= contStart[index]){
                 gnbMenu.forEach(function(el,index){
