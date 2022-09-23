@@ -197,4 +197,70 @@
             }
         }
     }
+    .cont3{
+        background-color: #fafafa;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 120px;
+        .center {
+            width: 1120px;
+            .cont3_textWrap {
+                padding:115px 0 70px;
+                text-align: center;
+
+                .doing {
+                    font-size: 28px;
+                    margin-bottom: 20px;
+                }
+                .do {
+                    font-size: 15px;
+                    color: #888;
+                    &::after {
+                        content: "";
+                        display: block;
+                        width:80px ;
+                        height: 1px;
+                        background-color: #bcbcbc;
+                        margin: 25px auto 0;
+                    }
+                }
+            }
+            .boxWrap {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .box {
+                    background-color: #fff;
+                    border: 1px solid #f3f1f1;
+                    margin-bottom: 30px;
+                    text-align: center;
+                    padding: 0 25px 48px;
+                    .boxicon {
+                        border: 1px solid #8b8b8b;
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin:40px auto 25px;
+                        span {
+                            display: block;
+                            line-height: 80px;
+                            font-size: 35px;
+                            color:#8b8b8b ;
+                        }
+                    }
+                    .box_title{
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin-bottom:25px ;
+                    }
+                    .box_context {
+                        font-size: 14px;
+                        color: #777;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
 }

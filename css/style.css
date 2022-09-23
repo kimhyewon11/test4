@@ -180,6 +180,71 @@
   background-color: #333;
   border-radius: 5px;
 }
+#container .cont3 {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+#container .cont3 .center {
+  width: 1120px;
+}
+#container .cont3 .center .cont3_textWrap {
+  padding: 115px 0 70px;
+  text-align: center;
+}
+#container .cont3 .center .cont3_textWrap .doing {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+#container .cont3 .center .cont3_textWrap .do {
+  font-size: 15px;
+  color: #888;
+}
+#container .cont3 .center .cont3_textWrap .do::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background-color: #bcbcbc;
+  margin: 25px auto 0;
+}
+#container .cont3 .center .boxWrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#container .cont3 .center .boxWrap .box {
+  background-color: #fff;
+  border: 1px solid #f3f1f1;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 0 25px 48px;
+}
+#container .cont3 .center .boxWrap .box .boxicon {
+  border: 1px solid #8b8b8b;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 40px auto 25px;
+}
+#container .cont3 .center .boxWrap .box .boxicon span {
+  display: block;
+  line-height: 80px;
+  font-size: 35px;
+  color: #8b8b8b;
+}
+#container .cont3 .center .boxWrap .box .box_title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#container .cont3 .center .boxWrap .box .box_context {
+  font-size: 14px;
+  color: #777;
+  line-height: 30px;
+}
 
 * {
   margin: 0;
