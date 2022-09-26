@@ -99,8 +99,8 @@
 }
 #container {
     .cont {
-        height: 100vh;
         border-bottom: 1px solid #999;
+        height: 100vh;
     }
     .cont1 {
         position: relative;
@@ -388,6 +388,36 @@
                     height: 100%;
                    }
                }
+            }
+        }
+    }
+    .cont5 {
+        display: flex;
+        justify-content: center;
+        color: #fafafa;
+        height: 100%;
+        padding: 120px 0;
+        .center {
+            width: 70%;
+            .countboxWrap {
+                text-align: center;
+                display: flex;
+                justify-content: space-between;
+                h2 {
+                    margin-bottom: 20px;
+                    span {
+                        font-size:40px ;
+                        color: #888;
+                    }
+                }
+                .countUp {
+                    color: #000;
+                    font-size: 35px;
+                }
+                .context {
+                    margin-top: 25px;
+                    color: #888;
+                }
             }
         }
     }
