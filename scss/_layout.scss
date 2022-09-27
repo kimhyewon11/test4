@@ -696,3 +696,49 @@
         }
     }
 }
+#footer {
+    background-color: #040c2c;
+    padding: 50px 0;
+    .center {
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        .f_logo {
+            img {
+                width: 55px;
+            }
+        }
+        .icons {
+            margin: 30px 0 20px;
+            display: flex;
+            justify-content: center;
+           .bd{
+            border: 1px solid #fff;
+            border-radius: 50%;
+            width: 30px;
+            margin: 0 10px ;
+                span {
+                    display: flex;
+                    font-size: 16px;
+                    color: #fff;
+                    line-height: 30px;
+                    position: relative;
+                    left: 6px;
+                }
+           }
+        }
+        .text {
+            font-size: 13px;
+            color: #fff;
+
+            span {
+                color: #8b8b8b;
+            }
+        }
+        .copyR {
+            font-size: 13px;
+            color: #fff;
+            margin: 10px 0 30px;
+        }
+    }
+}
