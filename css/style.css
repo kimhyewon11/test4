@@ -472,6 +472,42 @@
 #container .cont6 .slider .circleBtn .cir.on {
   background-color: #fff;
 }
+#container .cont7 {
+  display: flex;
+  justify-content: center;
+}
+#container .cont7 .center {
+  width: 1150px;
+  padding: 100px 0;
+}
+#container .cont7 .center .topWrap {
+  text-align: center;
+}
+#container .cont7 .center .topWrap .title {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+#container .cont7 .center .topWrap .text {
+  font-size: 14px;
+  color: #494949;
+  line-height: 20px;
+}
+#container .cont7 .center .topWrap .text::after {
+  content: "";
+  display: flex;
+  width: 81px;
+  height: 2px;
+  background-color: #bcbcbc;
+  margin: 25px auto 60px;
+}
+#container .cont7 .center .botimgWrap {
+  display: flex;
+  justify-content: space-between;
+}
+#container .cont7 .center .botimgWrap img {
+  width: 135px;
+  margin: 0 1%;
+}
 
 * {
   margin: 0;

@@ -495,4 +495,40 @@
             }
         }
     }
+    .cont7 {
+        display: flex;
+        justify-content: center;
+        .center {
+            width: 1150px;
+            padding: 100px 0;
+            .topWrap {
+                text-align: center;
+                .title {
+                    font-size:27px;
+                    margin-bottom: 20px;
+                }
+                .text {
+                    font-size: 14px;
+                    color: #494949;
+                    line-height: 20px;
+                    &::after {
+                        content: "";
+                        display: flex;
+                        width:81px;
+                        height: 2px;
+                        background-color: #bcbcbc;
+                        margin: 25px auto 60px;
+                    }
+                }
+            }
+            .botimgWrap {
+                display: flex;
+                justify-content: space-between;
+                img {
+                    width:135px;
+                    margin: 0 1%;
+                }
+            }
+        }
+    }
 }
