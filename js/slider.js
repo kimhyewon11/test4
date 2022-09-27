@@ -1,5 +1,5 @@
-const view =document.querySelector(".view");;
-const circleBtn =document.querySelectorAll(".circleBtn >div")
+const view =document.querySelector(".view");
+const circleBtn =document.querySelectorAll(".circleBtn >div");
 
 //let sNumber =0;
 
@@ -14,18 +14,35 @@ let count = 0;
 
 
 let slide = setInterval(function(){
+    nextSlide();
+},1000);
+
+
+view.addEventListener("mouseenter",function(){
+    clearInterval(slide);
+});
+
+view.addEventListener("mouseleave",function(){
+    slide = setInterval(function(){
+        nextSlide();
+    },1000);
+});
+
+function nextSlide(){
     if(count == circleBtn.length -1){
         count=0;
-        clearInterval(slide);
+       
     }
     else{
         count++;
     }
+    circleBtn.forEach(function(e,index){
+        e.classList.remove("on");
+    });
+    circleBtn[count].classList.add("on");
     view.style.marginLeft = -100 * count + "%";
-    
-},1000);
 
-
+}
 
 // function stopAndStart(){
 //     clearInterval(slide);
@@ -47,19 +64,16 @@ let slide = setInterval(function(){
 
 //슬라이드 이동 , 동그라미 버튼 활성 비활성 함수 
 
-    function circleBtnslide (){
-        circleBtn.forEach(function(el,index){
-        
-            el.addEventListener("click",function(){
-                circleBtn.forEach(function(e,index){
-                    e.classList.remove("on");
-                });
-                el.classList.add("on");
-                view.style.marginLeft = -100 * index + "%";
-            });
-        }); 
 
-    }
+circleBtn.forEach(function(el,index){
+    el.addEventListener("click",function(){
+        circleBtn.forEach(function(e,index){
+            e.classList.remove("on");
+        });
+        el.classList.add("on");
+        view.style.marginLeft = -100 * index + "%";
+    });
+}); 
     
 
 //

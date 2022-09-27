@@ -32,24 +32,20 @@
   content: "";
   display: block;
   width: 0%;
-  height: 1px;
+  height: 2px;
   background-color: #fff;
   margin-top: 15px;
+  transition: all 0.5s;
 }
 #header .center .gnb li a {
   color: #fff;
   display: block;
   font-size: 13px;
   font-weight: bold;
-  transition: all 0.5s;
 }
-#header .center .gnb li.on a::after {
+#header .center .gnb li.on::after {
   content: "";
-  display: block;
   width: 100%;
-  height: 2px;
-  background-color: #fff;
-  margin-top: 15px;
 }
 #header .center .login {
   display: block;
@@ -72,7 +68,7 @@
 #header.fixed .center .gnb li a {
   color: #040c2c;
 }
-#header.fixed .center .gnb li.on a::after {
+#header.fixed .center .gnb li.on::after {
   content: "";
   display: block;
   width: 100%;

@@ -28,27 +28,22 @@
                     content: "";
                     display: block;
                     width: 0%;
-                    height: 1px;
+                    height: 2px;
                     background-color: #fff;
                     margin-top: 15px;
+                    transition: all 0.5s;
                 }
                 a {
                     color: #fff;
                     display: block;
                     font-size: 13px;
                     font-weight: bold;
-                    transition: all 0.5s;
-
                 }
             }
-            li.on a {
+            li.on {
                 &::after {
                     content: "";
-                    display: block;
                     width: 100%;
-                    height: 2px;
-                    background-color: #fff;
-                    margin-top: 15px;
                 }
             }
         }
@@ -80,7 +75,7 @@
                     color: #040c2c;
                 }
             }
-            li.on a {
+            li.on {
                 &::after {
                     content: "";
                     display: block;
