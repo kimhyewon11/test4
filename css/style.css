@@ -87,7 +87,6 @@
 
 #container .cont {
   border-bottom: 1px solid #999;
-  height: 100vh;
 }
 #container .cont1 {
   position: relative;
@@ -507,6 +506,94 @@
 #container .cont7 .center .botimgWrap img {
   width: 135px;
   margin: 0 1%;
+}
+#container .cont8 {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+}
+#container .cont8 .center {
+  width: 1150px;
+  padding: 150px 0;
+}
+#container .cont8 .center .topWrap {
+  text-align: center;
+}
+#container .cont8 .center .topWrap .title {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+#container .cont8 .center .topWrap .text {
+  font-size: 14px;
+  color: #494949;
+  line-height: 20px;
+}
+#container .cont8 .center .topWrap .text::after {
+  content: "";
+  display: flex;
+  width: 81px;
+  height: 2px;
+  background-color: #bcbcbc;
+  margin: 25px auto 80px;
+}
+#container .cont8 .center .blogboxWrap {
+  display: flex;
+  justify-content: space-between;
+}
+#container .cont8 .center .blogboxWrap .blogbox {
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+#container .cont8 .center .blogboxWrap .blogbox .imgWrap {
+  position: relative;
+}
+#container .cont8 .center .blogboxWrap .blogbox .imgWrap img {
+  width: 350px;
+}
+#container .cont8 .center .blogboxWrap .blogbox .imgWrap .date {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 55px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 7px 0;
+}
+#container .cont8 .center .blogboxWrap .blogbox .imgWrap .date p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+}
+#container .cont8 .center .blogboxWrap .blogbox .wirter {
+  padding: 20px 0 20px 20px;
+  display: flex;
+}
+#container .cont8 .center .blogboxWrap .blogbox .wirter span {
+  font-size: 17px;
+  padding-right: 10px;
+}
+#container .cont8 .center .blogboxWrap .blogbox .wirter .by {
+  font-size: 15px;
+}
+#container .cont8 .center .blogboxWrap .blogbox .blogTitle {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0 0 25px 20px;
+}
+#container .cont8 .center .blogboxWrap .blogbox .context {
+  padding: 0 0 25px 20px;
+  font-size: 15px;
+  color: #888;
+  line-height: 22px;
+}
+#container .cont8 .center .blogboxWrap .blogbox .more {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 0 30px 20px;
 }
 
 * {
