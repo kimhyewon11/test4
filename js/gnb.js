@@ -30,3 +30,18 @@
 
     });
 
+    //gnb 클릭시 해당 화면으로 이동 
+
+    gnbMenu.forEach(function(el,index){
+        el.addEventListener("click",function(e){
+            e.preventDefault();
+
+            let scrollMove = cont[index].offsetTop-11;
+            console.log(scrollMove);
+            window.scrollTo({
+                top:scrollMove,
+                behavior:"smooth"
+            });
+        });
+    });
+
