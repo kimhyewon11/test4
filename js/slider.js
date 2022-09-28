@@ -44,22 +44,6 @@ function nextSlide(){
 
 }
 
-// function stopAndStart(){
-//     clearInterval(slide);
-//         setTimeout(function(){
-//             slide =  setInterval(function(){
-//                 if(count == circleBtn.length -1){
-//                     count=0;
-//                     clearInterval(slide);
-//                 }
-//                 else{
-//                     count++;
-//                 }
-//                 view.style.marginLeft = -100 * count + "%";
-            
-//             },1000);
-//         },1000);
-// }
 
 
 //슬라이드 이동 , 동그라미 버튼 활성 비활성 함수 

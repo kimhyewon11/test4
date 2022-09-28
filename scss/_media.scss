@@ -1,0 +1,190 @@
+@media screen and (max-width:1200px)
+{
+    #header {
+        .center {
+            width: 100%;
+            h1 {
+                margin-right: 20px;
+            }
+            .login {
+                margin-left: 20px;
+            }
+        }
+    }
+    #container {
+        .cont2 {
+            padding-left: 100px ;
+            img {
+                width: 700px;
+            }
+        }
+    
+        .cont3{
+            .center {
+                width: 85%;
+                .boxWrap {
+                    width: 100%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    
+        .cont4 {
+            .center {
+                width: 75%;
+            }
+        }
+    
+        .cont5 {
+            .center {
+                width: 80%;
+            }
+        }
+
+        .cont7 {
+            width: 78%;
+            margin: 0 auto;
+        }
+    
+        .cont8 {
+            .center {
+                width:83%;
+                .blogboxWrap {
+                    .blogbox {
+                        width: 30.33333%;
+                        margin: 1%;
+                        .context {
+                            padding: 0 10px 25px 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .cont10 {
+            .center {                
+                width: 76%;
+                .leftWrap {
+                    margin-right: 35px;
+                }
+                .RightWrap {
+                    .Wrap {
+                        input {
+                            width:245px;
+                            margin-right:10px;
+                        }
+                    }
+                    textarea {
+                        width: 530px;
+                    }
+                }
+            }
+            
+        }
+
+
+    }
+    #footer {
+        .center {
+            width: 33.33333%;
+        }
+    }
+}
+
+@media screen and (max-width:990px) 
+{
+    #header {
+        .center {
+            width: 80%;
+            justify-content: space-between;
+            .login {
+                margin-right: 50px;
+            }
+            .gnb {
+                display: none;
+            }
+            .subMenu {
+                display: block;
+                right: 0;
+            }
+        }
+    }
+    #container {
+        .cont2 {
+            padding-left: 100px ;
+            img {
+                width: 700px;
+            }
+        }
+    
+        .cont3{
+            .center {
+                width: 85%;
+                .boxWrap {
+                    width: 100%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    
+        .cont4 {
+            .center {
+                width: 75%;
+            }
+        }
+    
+        .cont5 {
+            .center {
+                width: 80%;
+            }
+        }
+
+        .cont7 {
+            width: 78%;
+            margin: 0 auto;
+        }
+    
+        .cont8 {
+            .center {
+                width:83%;
+                .blogboxWrap {
+                    .blogbox {
+                        width: 30.33333%;
+                        margin: 1%;
+                        .context {
+                            padding: 0 10px 25px 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .cont10 {
+            .center {                
+                width: 76%;
+                .leftWrap {
+                    margin-right: 35px;
+                }
+                .RightWrap {
+                    .Wrap {
+                        input {
+                            width:245px;
+                            margin-right:10px;
+                        }
+                    }
+                    textarea {
+                        width: 530px;
+                    }
+                }
+            }
+            
+        }
+
+
+    }
+    #footer {
+        .center {
+            width: 33.33333%;
+        }
+    }
+}
