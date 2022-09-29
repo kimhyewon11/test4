@@ -62,6 +62,8 @@
     subgnb.forEach(function(ele,index){
         ele.addEventListener("click",function(e){
             e.preventDefault();
+            mbtn.classList.remove("chg");
+            mgnb.classList.remove("on");
 
             let mscrollMove = cont[index].offsetTop-11;
 
