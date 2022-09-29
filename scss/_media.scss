@@ -13,17 +13,25 @@
     }
     #container {
         .cont2 {
-            padding-left: 100px ;
-            img {
-                width: 700px;
+            justify-content: start;
+            padding-left: 100px;
+            position: relative;
+            overflow: hidden;
+            .cont2_textWrap {
+                padding-bottom: 230px;
             }
+            img {
+                position: absolute;
+                right:-100px;
+            }
+           
         }
     
         .cont3{
             .center {
-                width: 85%;
+                width: 82%;
                 .boxWrap {
-                    width: 100%;
+                    width:100%;
                     margin: 0 auto;
                 }
             }
@@ -105,24 +113,36 @@
             }
             .subMenu {
                 display: block;
-                right: 0;
+                width: 100%;
+                .spanWrap {
+                    width: 50px;
+                }
+                .subgnb {
+                    width: 100%;
+                }
             }
+
         }
     }
     #container {
+
         .cont2 {
-            padding-left: 100px ;
+            .cont2_textWrap{
+                padding-top:100px;
+            }
             img {
-                width: 700px;
+                display: block;
+                width: 600px;
             }
         }
     
         .cont3{
             .center {
-                width: 85%;
+                width: 76%;
                 .boxWrap {
-                    width: 100%;
-                    margin: 0 auto;
+                    .box {
+                        width:40%;
+                    }
                 }
             }
         }
@@ -135,23 +155,39 @@
     
         .cont5 {
             .center {
-                width: 80%;
+                width: 68%;
             }
         }
 
         .cont7 {
             width: 78%;
-            margin: 0 auto;
+            .botimgWrap {
+                img {
+                    &:nth-child(5),
+                    &:nth-child(6) {
+                        display: none;
+                    }
+                }
+            }
         }
     
         .cont8 {
             .center {
-                width:83%;
+                width:76%;
                 .blogboxWrap {
+                    width: 100%;
+                    flex-wrap: wrap;
                     .blogbox {
-                        width: 30.33333%;
+                        width: 100%;
                         margin: 1%;
+                        .imgWrap {
+                            width: 100%;
+                            img {width: 100%;}
+                        }
                         .context {
+                            br {
+                                display: none;
+                            }
                             padding: 0 10px 25px 20px;
                         }
                     }
@@ -161,7 +197,7 @@
 
         .cont10 {
             .center {                
-                width: 76%;
+                width: 73%;
                 .leftWrap {
                     margin-right: 35px;
                 }
@@ -184,7 +220,189 @@
     }
     #footer {
         .center {
-            width: 33.33333%;
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    #header {
+        .center {
+            width: 95%;
+        }
+    }
+    #container {
+        .cont1{
+            .bg { display: none;}
+        }
+        .cont2 {
+            width: 98%;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding-left: 0;
+            overflow: hidden;
+            .cont2_textWrap{
+                br { display: none;}
+                margin-left: 10px;
+                width: 98%;
+                padding-bottom:50px;
+
+            }
+            img {
+                right: 0;
+                display:block;
+                position: relative;
+                width: 100%;
+            }
+        }
+     
+        .cont3{
+            padding-left:0px ;
+            .center {
+                width: 97%;
+            }
+        }
+    
+        .cont4 {
+            .center {
+                width: 98%;
+                .listWrap {
+                    .small { 
+                        width: 48%; 
+                   }
+                   .big {
+                       width: 48%;
+                   }
+                }
+            }
+        }
+    
+        .cont5 {
+            padding: 50px 0;
+            .center {
+                width: 98%;
+                .countboxWrap {
+                    flex-wrap: wrap;
+                    .countbox {
+                        width: 48%;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+        .cont6 {
+            .slider {
+                width: 70%;
+                .circleBtn {
+                    bottom:120px;
+                }
+            }
+           
+        }
+        .cont7 {
+            width: 95%;
+            .botimgWrap {
+                img {
+                    &:nth-child(4),
+                    &:nth-child(5),
+                    &:nth-child(6) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    
+        .cont8 {
+            .center {
+                width:98%;
+                .blogboxWrap {
+                    .blogbox {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+
+        .cont10 {
+            .center {                
+                width: 95%;
+                flex-wrap: wrap;
+                justify-content: start;
+               
+                .RightWrap {
+                    width: 100%;
+                    .Wrap {
+                        width: 100%;
+                        margin-bottom: 0;
+                        input {
+                            width:95%;
+                            margin-right:0px;
+                            margin-bottom: 30px;
+                        }
+                    }
+                    textarea {
+                        width: 95%;
+                    }
+                }
+            }
+            
+        }
+
+
+    }
+}
+
+@media screen and (max-width:580px) {
+    #header {
+        .center {
+            width: 95%;
+        }
+    }
+    #container {
+        .cont1{
+            .textWrap {
+                width: 95%;
+            }
+        }
+        
+        .cont3{
+            .center {
+                width: 97%;
+                .boxWrap {
+                    .box {
+                        width:35%;
+                    }
+                }
+            }
+        }
+    
+        .cont4 {
+            .center {
+                width: 98%;
+                .menu {
+                    li {
+                        a {
+                            margin: 0 5px 48px;
+                        }
+                    }
+                }
+            }
+        }
+    
+        
+        .cont6 {
+            .slider {
+                width: 80%;
+            }
+           
+        }
+     
+    }
+    #footer {
+        .center {
+            width: 60%;
         }
     }
 }
