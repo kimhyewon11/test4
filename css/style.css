@@ -145,7 +145,7 @@
 #header .center .subMenu .subgnb li:last-child {
   margin-bottom: 20px;
 }
-#header .center .subMenu .subgnb li.on::after {
+#header .center .subMenu .subgnb li.wid::after {
   content: "";
   width: 100%;
 }
@@ -833,6 +833,7 @@ table {
 
 body {
   line-height: 1;
+  overflow-x: hidden;
 }
 
 input, select {
@@ -1004,6 +1005,9 @@ input, select {
   }
   #container .cont1 .bg {
     display: none;
+  }
+  #container .cont1 .textWrap {
+    width: 80%;
   }
   #container .cont2 {
     width: 98%;
