@@ -158,6 +158,13 @@
                 width: 68%;
             }
         }
+        .cont6 {
+            .slider{
+                .circleBtn {
+                    bottom: 120px;
+                }
+            }
+        }
 
         .cont7 {
             width: 78%;
@@ -197,19 +204,23 @@
 
         .cont10 {
             .center {                
-                width: 73%;
+                width: 85%;
                 .leftWrap {
                     margin-right: 35px;
                 }
                 .RightWrap {
+                    width: 100%;
                     .Wrap {
+                        width: 100%;
+                        margin-bottom: 0px;
                         input {
-                            width:245px;
-                            margin-right:10px;
+                            width:100%;
+                            margin-bottom:30px;
+                            margin-right: 0;
                         }
                     }
                     textarea {
-                        width: 530px;
+                        width: 100%;
                     }
                 }
             }

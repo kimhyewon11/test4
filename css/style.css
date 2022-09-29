@@ -953,6 +953,9 @@ input, select {
   #container .cont5 .center {
     width: 68%;
   }
+  #container .cont6 .slider .circleBtn {
+    bottom: 120px;
+  }
   #container .cont7 {
     width: 78%;
   }
@@ -983,17 +986,25 @@ input, select {
     display: none;
   }
   #container .cont10 .center {
-    width: 73%;
+    width: 85%;
   }
   #container .cont10 .center .leftWrap {
     margin-right: 35px;
   }
+  #container .cont10 .center .RightWrap {
+    width: 100%;
+  }
+  #container .cont10 .center .RightWrap .Wrap {
+    width: 100%;
+    margin-bottom: 0px;
+  }
   #container .cont10 .center .RightWrap .Wrap input {
-    width: 245px;
-    margin-right: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 0;
   }
   #container .cont10 .center .RightWrap textarea {
-    width: 530px;
+    width: 100%;
   }
   #footer .center {
     width: 40%;
